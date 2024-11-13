@@ -10,10 +10,10 @@ import joblib
 import pandas as pd  # Import pandas for DataFrame conversion
 
 # Load the trained model
-model = joblib.load("C:/Users/AKIN-JOHNSON/Desktop/Workspace/Crop recommendation/crop_recommendation.pkl")
+model = joblib.load("crop_recommendation.pkl")
 
 # Load the Label Encoder for the Recommendations
-label_encoder = joblib.load("C:/Users/AKIN-JOHNSON/Desktop/Workspace/Crop recommendation/label_encoder.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 # Title and description
 st.title("Crop Recommendation System")
